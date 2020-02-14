@@ -1,7 +1,17 @@
-<div class="form">
-  <%= simple_form_for [@cocktail, @dose] do |f| %>
-    <%= f.input :description %>
-    <%= f.association :ingredient %>
-    <%= f.button :submit %>
-  <% end %>
+<div class="container form">
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-8">
+      <h3>Add Doses!</h3>
+        <%= simple_form_for [@cocktail, @dose] do |f| %>
+          <%= f.input :description %>
+          <%= f.association :ingredient %>
+          <%= f.button :submit %>
+        <% end %>
+    </div>
+  </div>
 </div>
+
+
+
+
+
