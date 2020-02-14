@@ -1,0 +1,23 @@
+.banner  {
+  background-image: url("https://source.unsplash.com/collection/4931760/");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+
+
+}
+
+.banner h1 {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 100px;
+  padding-top: 255px;
+}
+
+.banner button {
+  background-color: #F7C8C8;
+  position: absolute;
+    top: 28px;
+    left: 57px;
+}
