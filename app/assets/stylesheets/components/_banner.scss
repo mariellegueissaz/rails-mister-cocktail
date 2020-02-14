@@ -12,12 +12,21 @@
   color: white;
   font-weight: bold;
   font-size: 100px;
-  padding-top: 255px;
+  padding-top: 304px;
 }
 
 .banner button {
   background-color: #F7C8C8;
   position: absolute;
-    top: 28px;
-    left: 57px;
+  top: 50px;
+  left: 140px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+.banner a {
+   color:white;
+}
+
+.banner button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
